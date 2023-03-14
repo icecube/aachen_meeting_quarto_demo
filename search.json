@@ -81,7 +81,7 @@
     "href": "demo_collab_meeting.html#equations",
     "title": "Quarto",
     "section": "Equations",
-    "text": "Equations\nLaTeX-style equation syntax is fully supported. Inline α=1137\\alpha = \\frac{1}{137} or display math: E=mc2\nE = mc^2\n\nFor HTML outputs, rendered e.g. using mathjax, katex, mathml, …"
+    "text": "Equations\nLaTeX-style equation syntax is fully supported. Inline \\(\\alpha = \\frac{1}{137}\\) or display math: \\[\nE = mc^2\n\\]\nFor HTML outputs, rendered e.g. using mathjax, katex, mathml, …"
   },
   {
     "objectID": "demo_collab_meeting.html#computations",
