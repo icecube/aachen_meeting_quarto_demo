@@ -1,0 +1,74 @@
+---
+title: "Quarto"
+author: "Christian Haack"
+format: 
+    html: default
+    pdf: default
+    revealjs: default
+bibliography: references.bib
+csl: nature.csl
+---
+
+# Introduction
+[Quarto](https://quarto.org) is an open-source publishing system based on pandoc with focus on scientific writing.
+
+# Features
+
+## Output types
+* Write in markdown, render to various output formats. Including:
+    + html
+    + pdf (using pdflatex, luatex, wkhtmltopdf, ...)
+    + presentations (Powerpoint, revealjs, Beamer)
+    + Word
+    + Markdown
+    + ...
+
+## Computations
+Quarto allows integrates jupyter to support computation using essentially all languages that are supported by jupyter (python, julia, R, ...). It allows allows for interactive content produces by various interactivity libraries.
+
+::: {.content-visible when-format="html:js"}
+## Interactive Plot 
+This plot won't render in PDF, but we can hide it from this format.
+
+```{python}
+# | fig-cap: "Interactive plot using plotly"
+# | echo: false
+
+import plotly.express as px
+import plotly.io as pio
+
+df = px.data.iris()
+fig = px.scatter(
+    df,
+    x="sepal_width",
+    y="sepal_length",
+    color="species",
+    marginal_y="violin",
+    marginal_x="box",
+    trendline="ols",
+    template="simple_white",
+)
+fig.show()
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+This will show only in the PDF output.
+
+```{python}
+# | fig-cap: "Static plot using plotly"
+# | echo: false
+
+
+fig.to_image(format="png", engine="orca")
+```
+:::
+
+## Citations
+Citation from *.bib files is fully supported.
+Our^[Or do you prefer [@KM3NeT]?] favorite paper [@IceCube]
+
+## References
+
+::: {#refs}
+:::
