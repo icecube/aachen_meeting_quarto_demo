@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://icecube.github.io/aachen_meeting_quarto_demo/presentation.html</loc>
+    <lastmod>2023-03-14T14:18:32.962Z</lastmod>
+  </url>
+  <url>
     <loc>https://icecube.github.io/aachen_meeting_quarto_demo/demo_collab_meeting.html</loc>
-    <lastmod>2023-03-14T13:58:29.267Z</lastmod>
+    <lastmod>2023-03-14T14:19:24.754Z</lastmod>
   </url>
 </urlset>
