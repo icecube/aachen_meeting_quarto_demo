@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "presentation.html#output-types",
+    "href": "presentation.html#output-types",
+    "title": "Quarto",
+    "section": "Output types",
+    "text": "Output types\n\nWrite in markdown, render to various output formats. Including:\n\nhtml\npdf (using pdflatex, luatex, wkhtmltopdf, …)\npresentations (Powerpoint, revealjs, Beamer)\nWord\nMarkdown\n…"
+  },
+  {
+    "objectID": "presentation.html#computations",
+    "href": "presentation.html#computations",
+    "title": "Quarto",
+    "section": "Computations",
+    "text": "Computations\nQuarto allows integrates jupyter to support computation using essentially all languages that are supported by jupyter (python, julia, R, …). It allows allows for interactive content produces by various interactivity libraries."
+  },
+  {
+    "objectID": "presentation.html#interactive-plot",
+    "href": "presentation.html#interactive-plot",
+    "title": "Quarto",
+    "section": "Interactive Plot",
+    "text": "Interactive Plot\nThis plot won’t render in PDF, but we can hide it from this format.\n\n\n\n                                                \nInteractive plot using plotly"
+  },
+  {
+    "objectID": "presentation.html#publishing",
+    "href": "presentation.html#publishing",
+    "title": "Quarto",
+    "section": "Publishing",
+    "text": "Publishing\nQuarto includes convenience functions to publish documents to various targets. Most interesting for us is github pages:\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "presentation.html#citations",
+    "href": "presentation.html#citations",
+    "title": "Quarto",
+    "section": "Citations",
+    "text": "Citations\nCitation from *.bib files is fully supported. Our1 favorite paper2\nOr do you prefer1?"
+  },
+  {
+    "objectID": "presentation.html#references",
+    "href": "presentation.html#references",
+    "title": "Quarto",
+    "section": "References",
+    "text": "References\n\n\n1. Adrián-Martínez, S. et al. Letter of intent for KM3NeT 2.0. Journal of Physics G: Nuclear and Particle Physics 43, 084001 (2016).\n\n\n2. Aartsen, M. G. et al. The IceCube Neutrino Observatory: instrumentation and online systems. Journal of Instrumentation 12, P03012 (2017)."
+  },
+  {
+    "objectID": "demo_collab_meeting.html",
+    "href": "demo_collab_meeting.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Quarto is an open-source publishing system based on pandoc with focus on scientific writing."
+  },
+  {
+    "objectID": "demo_collab_meeting.html#output-types",
+    "href": "demo_collab_meeting.html#output-types",
+    "title": "Quarto",
+    "section": "Output types",
+    "text": "Output types\n\nWrite in markdown, render to various output formats. Including:\n\nhtml\npdf (using pdflatex, luatex, wkhtmltopdf, …)\npresentations (Powerpoint, revealjs, Beamer)\nWord\nMarkdown\n…"
+  },
+  {
+    "objectID": "demo_collab_meeting.html#computations",
+    "href": "demo_collab_meeting.html#computations",
+    "title": "Quarto",
+    "section": "Computations",
+    "text": "Computations\nQuarto allows integrates jupyter to support computation using essentially all languages that are supported by jupyter (python, julia, R, …). It allows allows for interactive content produces by various interactivity libraries."
+  },
+  {
+    "objectID": "demo_collab_meeting.html#interactive-plot",
+    "href": "demo_collab_meeting.html#interactive-plot",
+    "title": "Quarto",
+    "section": "Interactive Plot",
+    "text": "Interactive Plot\nThis plot won’t render in PDF, but we can hide it from this format.\n\n\n\n                                                \nInteractive plot using plotly"
+  },
+  {
+    "objectID": "demo_collab_meeting.html#publishing",
+    "href": "demo_collab_meeting.html#publishing",
+    "title": "Quarto",
+    "section": "Publishing",
+    "text": "Publishing\nQuarto includes convenience functions to publish documents to various targets. Most interesting for us is github pages:\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "demo_collab_meeting.html#citations",
+    "href": "demo_collab_meeting.html#citations",
+    "title": "Quarto",
+    "section": "Citations",
+    "text": "Citations\nCitation from *.bib files is fully supported. Our1 favorite paper2"
+  },
+  {
+    "objectID": "demo_collab_meeting.html#references",
+    "href": "demo_collab_meeting.html#references",
+    "title": "Quarto",
+    "section": "References",
+    "text": "References\n\n\n1. Adrián-Martínez, S. et al. Letter of intent for KM3NeT 2.0. Journal of Physics G: Nuclear and Particle Physics 43, 084001 (2016).\n\n\n2. Aartsen, M. G. et al. The IceCube Neutrino Observatory: instrumentation and online systems. Journal of Instrumentation 12, P03012 (2017)."
+  }
+]
