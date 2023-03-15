@@ -1,0 +1,80 @@
+<span id="introduction"></span>
+= Introduction =
+
+[https://quarto.org Quarto] is an open-source publishing system based on pandoc with focus on scientific writing.
+
+'''tl/dr''': jupyter notebooks <math display="inline">\Rightarrow</math> scientific document
+
+<span id="features"></span>
+= Features =
+
+<span id="output-types"></span>
+== Output types ==
+
+* Write in markdown, render to various output formats. Including:
+** html
+** pdf (using pdflatex, luatex, wkhtmltopdf, …)
+** presentations (Powerpoint, revealjs, Beamer)
+** Word
+** Markdown
+** …
+
+<span id="equations"></span>
+== Equations ==
+
+LaTeX-style equation syntax is fully supported. Inline <math display="inline">\alpha = \frac{1}{137}</math> or display math: <math display="block">
+E = mc^2
+</math>
+
+For HTML outputs, rendered e.g. using mathjax, katex, mathml, …
+
+<span id="computations"></span>
+== Computations ==
+
+Quarto allows integrates jupyter to support computation using essentially all languages that are supported by jupyter (python, julia, R, …). It allows allows for interactive content produces by various interactivity libraries.
+
+<span id="publishing"></span>
+== Publishing ==
+
+Quarto includes convenience functions to publish documents to various targets. Most interesting for us is github pages:
+
+<pre>quarto publish gh-pages
+</pre>
+<span id="citations"></span>
+== Citations ==
+
+Citation from *.bib files is fully supported. Our<ref>Or do you prefer<sup>1</sup>?</ref> favorite paper<sup>2</sup>
+
+<span id="collaborative-writing"></span>
+== Collaborative Writing ==
+
+No builtin collaborative writing support. Can use of course use github, or any other tool that allows collaboration on text documents. However, convenient integration of annotation tools like [https://web.hypothes.is/ hypothes.is], [https://giscus.app/ giscus] or [https://utteranc.es/ utterances]. (Here using hypothes.is)
+
+<span id="applications-in-icecube"></span>
+== Applications in IceCube ==
+
+* Technical Reports
+* “Analysis Wikis”
+* Approved Plots (no need to use webplotdigitizer..)
+* Papers??
+
+<span id="references"></span>
+== References ==
+
+<div id="refs" class="references csl-bib-body" line-spacing="2">
+
+<div id="ref-KM3NeT" class="csl-entry">
+
+<span class="csl-left-margin">1. </span><span class="csl-right-inline">Adrián-Martínez, S. ''et al.'' [https://doi.org/10.1088/0954-3899/43/8/084001 Letter of intent for KM3NeT 2.0]. ''Journal of Physics G: Nuclear and Particle Physics'' '''43''', 084001 (2016).</span>
+
+
+</div>
+<div id="ref-IceCube" class="csl-entry">
+
+<span class="csl-left-margin">2. </span><span class="csl-right-inline">Aartsen, M. G. ''et al.'' [https://doi.org/10.1088/1748-0221/12/03/P03012 <span class="nocase">The IceCube Neutrino Observatory: instrumentation and online systems</span>]. ''Journal of Instrumentation'' '''12''', P03012 (2017).</span>
+
+
+</div>
+
+</div>
+<references />
