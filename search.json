@@ -4,7 +4,7 @@
     "href": "demo_collab_meeting.html",
     "title": "Quarto",
     "section": "",
-    "text": "Quarto is an open-source publishing system based on pandoc with focus on scientific writing."
+    "text": "Quarto is an open-source publishing system based on pandoc with focus on scientific writing.\ntl/dr: jupyter notebooks \\(\\Rightarrow\\) scientific document"
   },
   {
     "objectID": "demo_collab_meeting.html#output-types",
