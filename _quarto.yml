@@ -1,11 +1,14 @@
 project:
   title: "demo_collab_meeting"
-  type: website
 format: 
+    revealjs:
+      output-file: presentation.html
+      show-slide-number: all
     html: default
     pdf: default
     docx: default
     mediawiki: default
+    pptx: default
 author: "Christian Haack"
 affiliation: ECP, TU Munich
 affiliation-url: https://www.ph.nat.tum.de/cosmic-particles/experimental-physics-with-cosmic-particles/
